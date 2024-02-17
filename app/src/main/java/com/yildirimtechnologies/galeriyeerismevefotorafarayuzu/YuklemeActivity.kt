@@ -89,6 +89,7 @@ class YuklemeActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+    //fotoğrafı küçültmek için algoritma. 
     private fun kucukbitmapolustur(image : Bitmap, maximumBoyut : Int) : Bitmap{
         var width = image.width
         var height = image.height
